@@ -1,0 +1,18 @@
+title: Plain Visualization Algorithm (PVA)
+description: >-
+  A new visualization algorithm based in plain geometrical reasoning (already
+  found in Multidimensional Scaling foundations) is presented.
+template:
+  repo: plain-visualization-algorithm-(pva)-template
+  name: plain-visualization-algorithm-(pva)
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
